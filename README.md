@@ -1,4 +1,4 @@
-# selamualey.com
+bu# selamualey.com
 Selamualey.com için ana açılış sayfası
 # Selam verdik, kazançlı çıktık.
 
