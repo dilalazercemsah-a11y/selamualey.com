@@ -8,7 +8,7 @@ Selamualey.com için ana açılış sayfası
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ürünler | Selamualey</title>
+  <esselamualey.com>Ürünler | Selamualey</esselamualey.com>
 
   <meta name="description" content="Güncel fiyatlarla en çok aranan ürünler. Satın alma işlemleri ilgili mağazalar üzerinden gerçekleştirilir.">
 
