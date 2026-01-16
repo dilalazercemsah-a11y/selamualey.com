@@ -14,7 +14,7 @@ urunler/indeks.html
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <title>Ürünler | Selamualey</title>
+  <title>Ürünler | esselamualey</title>
   <meta name="description" content="Güncel fiyatlarla en çok aranan ürünler. Satın alma işlemi ilgili mağaza üzerinden yapılır.">
 </head>
 <body>
