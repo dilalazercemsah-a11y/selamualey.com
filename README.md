@@ -8,14 +8,15 @@ Selamualey.com için ana açılış sayfası
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <esselamualey.com>Ürünler | Selamualey</esselamualey.com>
 
-  <meta name="description" content="Güncel fiyatlarla en çok aranan ürünler. Satın alma işlemleri ilgili mağazalar üzerinden gerçekleştirilir.">
+  <title>Ürünler | esselamualey.com</title>
+
+  <meta name="description" content="esselamualey.com ürün kataloğu. Satın alma işlemleri ilgili siteler üzerinden yapılır.">
 
   <style>
     body {
       margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
       background: #ffffff;
       color: #111;
     }
@@ -27,108 +28,111 @@ Selamualey.com için ana açılış sayfası
     }
 
     h1 {
-      font-size: 34px;
-      margin-bottom: 8px;
+      font-size: 32px;
+      margin-bottom: 10px;
     }
 
-    .subtitle {
-      font-size: 15px;
+    .info {
+      font-size: 14px;
       color: #555;
-      margin-bottom: 32px;
+      margin-bottom: 30px;
     }
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 24px;
     }
 
     .product {
-      border: 1px solid #eee;
-      border-radius: 14px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
       padding: 16px;
-      background: #fff;
       display: flex;
       flex-direction: column;
     }
 
     .product img {
       width: 100%;
-      height: 200px;
+      height: 180px;
       object-fit: contain;
-      margin-bottom: 14px;
+      margin-bottom: 12px;
+      background: #f5f5f5;
     }
 
     .product h2 {
-      font-size: 18px;
-      line-height: 1.4;
+      font-size: 16px;
       margin: 0 0 10px;
-      flex-grow: 1;
     }
 
     .price {
-      font-size: 17px;
-      font-weight: 600;
-      margin-bottom: 14px;
+      font-weight: bold;
+      margin-bottom: 12px;
     }
 
     .buy {
+      margin-top: auto;
       text-align: center;
+      padding: 10px;
       background: #111;
       color: #fff;
-      padding: 12px;
-      border-radius: 10px;
       text-decoration: none;
-      font-size: 15px;
-    }
-
-    .buy:hover {
-      background: #000;
+      border-radius: 8px;
+      font-size: 14px;
     }
 
     footer {
-      margin-top: 48px;
+      margin-top: 50px;
       font-size: 13px;
-      color: #777;
-      line-height: 1.6;
+      color: #666;
       border-top: 1px solid #eee;
-      padding-top: 24px;
+      padding-top: 20px;
     }
   </style>
 </head>
 
 <body>
 
-  <div class="container">
+<div class="container">
 
-    <h1>Ürünler</h1>
-    <p class="subtitle">
-      Bu sayfada listelenen ürünler iş ortaklığı (affiliate) bağlantıları içerebilir.
-    </p>
+  <h1>Ürünler</h1>
 
-    <div class="grid">
+  <p class="info">
+    Bu sayfada yer alan ürünler yönlendirme (affiliate) bağlantıları içerebilir.
+  </p>
 
-      <!-- ÜRÜN KARTI -->
-      <div class="product">
-        <img src="/assets/img/xiaomi-15t-pro.jpg" alt="Xiaomi 15T Pro 512 GB">
-        <h2>Xiaomi 15T Pro (512 GB)</h2>
-        <div class="price">39.975 TL</div>
-        <a class="buy" href="AFFILIATE_LINK_BURAYA" target="_blank" rel="nofollow sponsored">
-          Satın Al
-        </a>
-      </div>
+  <div class="grid">
 
-      <!-- YENİ ÜRÜN BURAYA KOPYALANIR -->
-
+    <!-- ÜRÜN 1 -->
+    <div class="product">
+      <img src="/assets/img/urun-gorseli.jpg" alt="ürün ismi">
+      <h2>ürün ismi</h2>
+      <div class="price">ürün fiyatı</div>
+      <a class="buy" href="ürün linki" target="_blank" rel="nofollow sponsored">
+        Satın Al
+      </a>
     </div>
 
-    <footer>
-      Bu sitede yer alan ürünler yönlendirme (affiliate) bağlantıları içerebilir.
-      Satış ve teslimat işlemleri ilgili satıcı tarafından gerçekleştirilir.
-    </footer>
+    <!-- ÜRÜN 2 -->
+    <div class="product">
+      <img src="/assets/img/urun-gorseli.jpg" alt="ürün ismi">
+      <h2>ürün ismi</h2>
+      <div class="price">ürün fiyatı</div>
+      <a class="buy" href="ürün linki" target="_blank" rel="nofollow sponsored">
+        Satın Al
+      </a>
+    </div>
+
+    <!-- 165. ÜRÜN DE AYNI ŞEKİLDE EKLENİR -->
 
   </div>
 
+  <footer>
+    esselamualey.com sitesinde yer alan ürünler bilgilendirme amaçlıdır.
+    Satış ve teslimat işlemleri ilgili satıcı tarafından gerçekleştirilir.
+  </footer>
+
+</div>
+
 </body>
 </html>
-
