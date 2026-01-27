@@ -7,132 +7,168 @@ Selamualey.com için ana açılış sayfası
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Ürünler | esselamualey.com</title>
-
-  <meta name="description" content="esselamualey.com ürün kataloğu. Satın alma işlemleri ilgili siteler üzerinden yapılır.">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alışverişin Kazanca Dönüşsün</title>
   <style>
     body {
-      margin: 0;
       font-family: Arial, Helvetica, sans-serif;
-      background: #ffffff;
-      color: #111;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #222;
+      line-height: 1.6;
     }
-
     .container {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 32px 20px 80px;
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background: #ffffff;
     }
-
-    h1 {
-      font-size: 32px;
-      margin-bottom: 10px;
+    h1, h2, h3 {
+      color: #0a5cff;
     }
-
-    .info {
-      font-size: 14px;
-      color: #555;
-      margin-bottom: 30px;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      gap: 24px;
-    }
-
-    .product {
-      border: 1px solid #ddd;
-      border-radius: 12px;
-      padding: 16px;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .product img {
-      width: 100%;
-      height: 180px;
-      object-fit: contain;
-      margin-bottom: 12px;
-      background: #f5f5f5;
-    }
-
-    .product h2 {
-      font-size: 16px;
-      margin: 0 0 10px;
-    }
-
-    .price {
-      font-weight: bold;
-      margin-bottom: 12px;
-    }
-
-    .buy {
-      margin-top: auto;
+    .hero {
       text-align: center;
-      padding: 10px;
-      background: #111;
+      padding: 40px 20px;
+    }
+    .hero p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 28px;
+      background: #0a5cff;
       color: #fff;
       text-decoration: none;
-      border-radius: 8px;
-      font-size: 14px;
+      border-radius: 6px;
+      font-size: 16px;
     }
-
-    footer {
-      margin-top: 50px;
-      font-size: 13px;
+    .section {
+      margin-top: 40px;
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    .step {
+      background: #f1f4ff;
+      padding: 20px;
+      border-radius: 6px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .footer-note {
+      font-size: 12px;
       color: #666;
-      border-top: 1px solid #eee;
-      padding-top: 20px;
+      margin-top: 40px;
+      text-align: center;
     }
   </style>
 </head>
-
 <body>
 
-<div class="container">
+  <div class="container">
 
-  <h1>Ürünler</h1>
-
-  <p class="info">
-    Bu sayfada yer alan ürünler yönlendirme (affiliate) bağlantıları içerebilir.
-  </p>
-
-  <div class="grid">
-
-    <!-- ÜRÜN 1 -->
-    <div class="product">
-      <img src="/assets/img/urun-gorseli.jpg" alt="ürün ismi">
-      <h2>ürün ismi</h2>
-      <div class="price">ürün fiyatı</div>
-      <a class="buy" href="ürün linki" target="_blank" rel="nofollow sponsored">
-        Satın Al
-      </a>
+    <div class="hero">
+      <h1>Zaten yaptığın alışveriş, sana ve çevrene kazanç yazsa ne olurdu?</h1>
+      <p>
+        Ürün satmadan, stok yapmadan, kimseyi ikna etmeden.<br>
+        Sadece markette, manavda, online alışverişte yaptığın harcamalarla.
+      </p>
+      <a href="#detay" class="btn">Sistemi 1 Dakikada Anla</a>
     </div>
 
-    <!-- ÜRÜN 2 -->
-    <div class="product">
-      <img src="/assets/img/urun-gorseli.jpg" alt="ürün ismi">
-      <h2>ürün ismi</h2>
-      <div class="price">ürün fiyatı</div>
-      <a class="buy" href="ürün linki" target="_blank" rel="nofollow sponsored">
-        Satın Al
-      </a>
+    <div class="section" id="detay">
+      <h2>Bu Sistem Ne?</h2>
+      <p>
+        Bu bir <strong>ürün satma sistemi değildir.</strong><br>
+        Bu bir <strong>alışkanlık ve sadakat sistemidir.</strong>
+      </p>
+      <p>
+        Günlük hayatında yaptığın alışverişler sistem içinde puanlanır ve
+        hem sana hem de bağlantılı olduğun kişilere katkı sağlar.
+      </p>
+      <p>
+        Ne aldığın önemli değil. Ekmek de olur, makarna da.<br>
+        Marka zorunluluğu yok.
+      </p>
     </div>
 
-    <!-- 165. ÜRÜN DE AYNI ŞEKİLDE EKLENİR -->
+    <div class="section">
+      <h2>Nasıl Çalışır?</h2>
+      <div class="steps">
+        <div class="step">
+          <h3>1️⃣ Alışverişini yap</h3>
+          <p>Kartla, QR ile veya uygulama içi bakiye ile.</p>
+        </div>
+        <div class="step">
+          <h3>2️⃣ Sistem alışverişi tanır</h3>
+          <p>Ürün değil, <strong>harcama davranışı</strong> esas alınır.</p>
+        </div>
+        <div class="step">
+          <h3>3️⃣ Katkı otomatik dağılır</h3>
+          <p>
+            Sen harcadıkça alttan kazanırsın,<br>
+            üste kazandırırsın.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Satış Yok, Zorlama Yok</h2>
+      <ul>
+        <li>Ürün tanıtmazsın</li>
+        <li>Kimseyi ikna etmek zorunda değilsin</li>
+        <li>Belirli bir ürüne bağlı kalmazsın</li>
+      </ul>
+      <p>
+        İnsanlar zaten alışveriş yapar.<br>
+        Sistem, var olan alışkanlığı kazanca dönüştürür.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Bağlantı Yapısı Nasıl?</h2>
+      <p>
+        Sistem, kullanıcıları dengeyi koruyacak şekilde yönlendirmeyi önerir.
+        Bu bir zorunluluk değildir.
+      </p>
+      <p>
+        Sen alışveriş yaptıkça hem kendin faydalanırsın
+        hem de bağlantılı olduğun kişiler.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Kimler İçin Uygun?</h2>
+      <ul>
+        <li>Zaten alışveriş yapanlar</li>
+        <li>Ürün satmak istemeyenler</li>
+        <li>Network dili sevmeyenler</li>
+        <li>Günlük hayatını bozmadan katkı sağlamak isteyenler</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Devam Etmek İster misin?</h2>
+      <p>
+        Sistemin adım adım nasıl çalıştığını görmek için
+        aşağıdaki butona tıkla.
+      </p>
+      <a href="BOT_LINKI_BURAYA" class="btn">Nasıl Çalıştığını Gör</a>
+    </div>
+
+    <div class="footer-note">
+      Bu sistem bir yatırım tavsiyesi değildir.  
+      Kullanım ve alışveriş esaslı bir sadakat yapısıdır.
+    </div>
 
   </div>
-
-  <footer>
-    esselamualey.com sitesinde yer alan ürünler bilgilendirme amaçlıdır.
-    Satış ve teslimat işlemleri ilgili satıcı tarafından gerçekleştirilir.
-  </footer>
-
-</div>
 
 </body>
 </html>
