@@ -1,0 +1,170 @@
+index.html
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alışverişin Kazanca Dönüşsün</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #222;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background: #ffffff;
+    }
+    h1, h2, h3 {
+      color: #0a5cff;
+    }
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .hero p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 28px;
+      background: #0a5cff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+    .section {
+      margin-top: 40px;
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    .step {
+      background: #f1f4ff;
+      padding: 20px;
+      border-radius: 6px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .footer-note {
+      font-size: 12px;
+      color: #666;
+      margin-top: 40px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="hero">
+      <h1>Zaten yaptığın alışveriş, sana ve çevrene kazanç yazsa ne olurdu?</h1>
+      <p>
+        Ürün satmadan, stok yapmadan, kimseyi ikna etmeden.<br>
+        Sadece markette, manavda, online alışverişte yaptığın harcamalarla.
+      </p>
+      <a href="#detay" class="btn">Sistemi 1 Dakikada Anla</a>
+    </div>
+
+    <div class="section" id="detay">
+      <h2>Bu Sistem Ne?</h2>
+      <p>
+        Bu bir <strong>ürün satma sistemi değildir.</strong><br>
+        Bu bir <strong>alışkanlık ve sadakat sistemidir.</strong>
+      </p>
+      <p>
+        Günlük hayatında yaptığın alışverişler sistem içinde puanlanır ve
+        hem sana hem de bağlantılı olduğun kişilere katkı sağlar.
+      </p>
+      <p>
+        Ne aldığın önemli değil. Ekmek de olur, makarna da.<br>
+        Marka zorunluluğu yok.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Nasıl Çalışır?</h2>
+      <div class="steps">
+        <div class="step">
+          <h3>1️⃣ Alışverişini yap</h3>
+          <p>Kartla, QR ile veya uygulama içi bakiye ile.</p>
+        </div>
+        <div class="step">
+          <h3>2️⃣ Sistem alışverişi tanır</h3>
+          <p>Ürün değil, <strong>harcama davranışı</strong> esas alınır.</p>
+        </div>
+        <div class="step">
+          <h3>3️⃣ Katkı otomatik dağılır</h3>
+          <p>
+            Sen harcadıkça alttan kazanırsın,<br>
+            üste kazandırırsın.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Satış Yok, Zorlama Yok</h2>
+      <ul>
+        <li>Ürün tanıtmazsın</li>
+        <li>Kimseyi ikna etmek zorunda değilsin</li>
+        <li>Belirli bir ürüne bağlı kalmazsın</li>
+      </ul>
+      <p>
+        İnsanlar zaten alışveriş yapar.<br>
+        Sistem, var olan alışkanlığı kazanca dönüştürür.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Bağlantı Yapısı Nasıl?</h2>
+      <p>
+        Sistem, kullanıcıları dengeyi koruyacak şekilde yönlendirmeyi önerir.
+        Bu bir zorunluluk değildir.
+      </p>
+      <p>
+        Sen alışveriş yaptıkça hem kendin faydalanırsın
+        hem de bağlantılı olduğun kişiler.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Kimler İçin Uygun?</h2>
+      <ul>
+        <li>Zaten alışveriş yapanlar</li>
+        <li>Ürün satmak istemeyenler</li>
+        <li>Network dili sevmeyenler</li>
+        <li>Günlük hayatını bozmadan katkı sağlamak isteyenler</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Devam Etmek İster misin?</h2>
+      <p>
+        Sistemin adım adım nasıl çalıştığını görmek için
+        aşağıdaki butona tıkla.
+      </p>
+      <a href="BOT_LINKI_BURAYA" class="btn">Nasıl Çalıştığını Gör</a>
+    </div>
+
+    <div class="footer-note">
+      Bu sistem bir yatırım tavsiyesi değildir.  
+      Kullanım ve alışveriş esaslı bir sadakat yapısıdır.
+    </div>
+
+  </div>
+
+</body>
+</html>
