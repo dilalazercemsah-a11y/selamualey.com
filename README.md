@@ -2,7 +2,7 @@ bu# selamualey.com
 Selamualey.com için ana açılış sayfası
 # Selam verdik, kazançlı çıktık.
 
-/urunler/index.html
+index.html
 <!DOCTYPE html>
 <html lang="tr">
 <head>
